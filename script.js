@@ -179,7 +179,8 @@ function globalEventListener(data) {
         boxLeft.appendChild(readDescription);
         let describe = document.createElement("p");
         describe.innerHTML = `<p><strong>Product Name</strong> : ${item.name}</p><strong>Description :</strong> ${item.description}`;
-        // boxLeft.appendChild(describe);
+        describe.classList.add("describe");
+        boxLeft.appendChild(describe);
         outputRight.innerHTML = `<h2>Product Description Area</h2>
         <h6>Click On Read Description to view the details</h6>`;
         let product_image = document.createElement("img");

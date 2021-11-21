@@ -1,5 +1,5 @@
 /** @format */
-url = "http://makeup-api.herokuapp.com/api/v1/products.json";
+url = "https://makeup-api.herokuapp.com/api/v1/products.json";
 // document.addEventListener("DOMContentLoaded", fetchMakeup(url));
 let title = document.createElement("h1");
 title.innerText = "Makeup API Products Application";
